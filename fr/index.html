@@ -31,6 +31,9 @@
   <!-- responsive style -->
   <link href="../css/responsive.css" rel="stylesheet" />
 
+  <!-- form provider Pageclip.co style -->
+  <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
+
 </head>
 
 <body>
@@ -473,33 +476,33 @@
                 Contactez-nous
               </h2>
             </div>
-            <form action="">
+            <form action="https://send.pageclip.co/2xq10EHMbB4f7MFWrzVw7LXAUW97QmLN/contact-form" class="pageclip-form" method="post">
               <div>
-                <input id="name" type="text" placeholder="Votre nom *" autocomplete="given-name" aria-label="name" required />
+                <input id="name" name="name" type="text" placeholder="Votre nom *" autocomplete="given-name" aria-label="name" required />
               </div>
               <div>
-                <input id="phone" type="text" placeholder="Numéro de téléphone" autocomplete="tel" aria-label="phone"/>
+                <input id="phone" name="phone" type="text" placeholder="Numéro de téléphone" autocomplete="tel" aria-label="phone"/>
               </div>
               <div>
-                <input id="email" type="email" placeholder="Email *" autocomplete="email" aria-label="email" required/>
+                <input id="email" name="email" type="email" placeholder="Email *" autocomplete="email" aria-label="email" required/>
               </div>
               <div>
-                <input id="guests" type="number" placeholder="Nombre d'invités *" aria-label="guests" required />
+                <input id="guests" name="guests" type="number" placeholder="Nombre d'invités *" aria-label="guests" required />
               </div>
               <div>
-                <input id="date" type="date" aria-label="date" required />
+                <input id="date" name="date" type="date" aria-label="date" required />
               </div>
               <div>
-                <input id="nights" type="number" placeholder="Nombre de nuits *" aria-label="nights" required  />
+                <input id="nights" name="nights" type="number" placeholder="Nombre de nuits *" aria-label="nights" required  />
               </div>
               <div>
                 <!-- <input type="text" class="message-box" placeholder="Message"/> -->
-                <textarea id="message" placeholder="Message"></textarea>
+                <textarea id="message" name="message" placeholder="Message"></textarea>
 
               </div>
               <div class="btn_box">
-                <button>
-                  ENVOYER
+                <button type="submit" class="pageclip-form__submit">
+                  <span>ENVOYER</span>
                 </button>
               </div>
             </form>
@@ -631,6 +634,9 @@
   <script src="../js/ekko-lightbox.min.js"></script>
   <!-- custom js -->
   <script src="../js/custom.js"></script>
+
+  <!-- form provider Pageclip.co script -->
+  <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 
 </body>
 
