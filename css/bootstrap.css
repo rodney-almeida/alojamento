@@ -3039,11 +3039,6 @@ input[type="button"].btn-block {
   color: #fff; /* added */
 }
 
-.dropdown a:hover,
-.dropdown a:focus {
-  background-color: #45523e; 
-}
-
 .dropdown-toggle {
   white-space: nowrap;
 }
