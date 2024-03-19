@@ -31,6 +31,8 @@
   <!-- responsive style -->
   <link href="../css/responsive.css" rel="stylesheet" />
 
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet" type="text/css">
+
 </head>
 
 <body>
@@ -38,21 +40,30 @@
   <!-- header section strats -->
   <header class="header_section innerpage_header">
     <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg custom_nav-container">
-        <a class="navbar-brand" href="./">
+      <nav class="navbar custom_nav-container">
+        <div class="" id="">
+        <a class="navbar-brand company" href="./">
           <span>
             Casa꒎rvora
           </span>
         </a>
-        <div class="language_box">
-          <a href="../en/gallery">EN</a>
-          <a href="../pt/gallery">PT</a>
-          <a href="../fr/gallery">FR</a>
-        </div>  
+        </div>
+        <!-- <div class="language_box">
+          <a href="../en/">EN</a>
+          <a href="../pt/">PT</a>
+          <a href="../fr/">FR</a>
+        </div> -->
         <div class="" id="">
-
+          <div class="dropdown ">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-gb"></span></a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> 
+              <!-- <a class="dropdown-item" href="../en/gallery"><span class="flag-icon flag-icon-gb"></span> English</a>  -->
+              <a class="dropdown-item" href="../pt/gallery"><span class="flag-icon flag-icon-pt"></span> Português</a> 
+              <a class="dropdown-item" href="../fr/gallery"><span class="flag-icon flag-icon-fr"></span> Français</a> 
+            </div>
+          </div> 
           <div class="custom_menu-btn">
-            <button onclick="openNav()">
+            <button onclick="openNav()" aria-label="menu-btn">
               <span class="s-1"> </span>
               <span class="s-2"> </span>
               <span class="s-3"> </span>
@@ -60,10 +71,7 @@
             <div id="myNav" class="overlay">
               <div class="overlay-content">
                 <a href="./">Home</a>
-                <!-- <a href="about">About</a> -->
                 <a href="gallery">Gallery</a>
-                <!-- <a href="service">Service</a> -->
-                <!-- <a href="blog">Blog</a> -->
               </div>
             </div>
           </div>

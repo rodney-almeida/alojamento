@@ -28,6 +28,8 @@
   <!-- responsive style -->
   <link href="../css/responsive.css" rel="stylesheet" />
 
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet" type="text/css">
+
 </head>
 
 <body>
@@ -35,21 +37,30 @@
   <!-- header section strats -->
   <header class="header_section innerpage_header">
     <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg custom_nav-container">
-        <a class="navbar-brand" href="./">
+      <nav class="navbar custom_nav-container">
+        <div class="" id="">
+        <a class="navbar-brand company" href="./">
           <span>
             Casa꒎rvora
           </span>
         </a>
-        <div class="language_box">
-          <a href="../en/room2">EN</a>
-          <a href="../pt/room2">PT</a>
-          <a href="../fr/room2">FR</a>
-        </div>  
+        </div>
+        <!-- <div class="language_box">
+          <a href="../en/">EN</a>
+          <a href="../pt/">PT</a>
+          <a href="../fr/">FR</a>
+        </div> -->
         <div class="" id="">
-
+          <div class="dropdown ">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-gb"></span></a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> 
+              <!-- <a class="dropdown-item" href="../en/roomOak"><span class="flag-icon flag-icon-gb"></span> English</a>  -->
+              <a class="dropdown-item" href="../pt/roomOak"><span class="flag-icon flag-icon-pt"></span> Português</a> 
+              <a class="dropdown-item" href="../fr/roomOak"><span class="flag-icon flag-icon-fr"></span> Français</a> 
+            </div>
+          </div> 
           <div class="custom_menu-btn">
-            <button onclick="openNav()">
+            <button onclick="openNav()" aria-label="menu-btn">
               <span class="s-1"> </span>
               <span class="s-2"> </span>
               <span class="s-3"> </span>
@@ -57,10 +68,7 @@
             <div id="myNav" class="overlay">
               <div class="overlay-content">
                 <a href="./">Home</a>
-                <!-- <a href="about">About</a> -->
                 <a href="gallery">Gallery</a>
-                <!-- <a href="service">Service</a> -->
-                <!-- <a href="blog">Blog</a> -->
               </div>
             </div>
           </div>
@@ -78,20 +86,20 @@
       <div class="row">
         <div class="col-md-6">
           <div class="img-box">
-            <img src="../images/room2.jpg" alt="">
+            <img src="../images/roomOak.jpg" alt="">
           </div>
         </div>
         <div class="col-md-6">
           <div class="detail-box">
             <div class="heading_container">
               <h2>
-                Studio Room
+                Oak Room
               </h2>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolorem eum consequuntur ipsam repellat dolor soluta aliquid laborum, eius odit consectetur vel quasi in quidem, eveniet ab est corporis tempore. <br />
+              Comfortable and spacious room with double bed and private bathroom with shower. We offer various amenities to make you feel at home, such as TV with access to various channels, underfloor heating, electric kettle, microwave, minibar, tea, coffee, milk and biscuits (basic dishes available). You can also enjoy the garden, with an outdoor table where you can feel the calm of this village and relax. Access to all bed linen and towels, as well as duvet and pillows, is also included. An additional single bed can be added for an additional 10€/night. <br />
 
-              <i class="fa fa-wifi" aria-hidden="true"></i> Free Wifi <br />
+              <i class="fa fa-wifi" aria-hidden="true"></i> Wifi <br />
               <i class="fa fa-bed" aria-hidden="true"></i> Queen Size Bed (extra bed available)<br />
               <i class="fa fa-shower" aria-hidden="true"></i> Full Bathroom <br />
               <i class="fa fa-user-o" aria-hidden="true"></i> 2 Guests (addition guest)<br />

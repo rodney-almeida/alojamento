@@ -31,6 +31,8 @@
   <!-- responsive style -->
   <link href="../css/responsive.css" rel="stylesheet" />
 
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet" type="text/css">
+
   <!-- form provider Pageclip.co style -->
   <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
 
@@ -41,19 +43,28 @@
   <!-- header section strats -->
   <header class="header_section innerpage_header">
     <div class="container-fluid">
-      <nav class="navbar navbar-expand-sm custom_nav-container">
+      <nav class="navbar custom_nav-container">
+        <div class="" id="">
         <a class="navbar-brand company" href="./">
           <span>
             Casa꒎rvora
           </span>
         </a>
-        <div class="language_box">
+        </div>
+        <!-- <div class="language_box">
           <a href="../en/">EN</a>
           <a href="../pt/">PT</a>
           <a href="../fr/">FR</a>
-        </div>
-
+        </div> -->
         <div class="" id="">
+          <div class="dropdown ">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-fr"></span></a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> 
+              <a class="dropdown-item" href="../en/"><span class="flag-icon flag-icon-gb"></span> English</a> 
+              <a class="dropdown-item" href="../pt/"><span class="flag-icon flag-icon-pt"></span> Português</a> 
+              <!-- <a class="dropdown-item" href="../fr/index.html"><span class="flag-icon flag-icon-fr"></span> Français</a>  -->
+            </div>
+          </div> 
           <div class="custom_menu-btn">
             <button onclick="openNav()" aria-label="menu-btn">
               <span class="s-1"> </span>
@@ -63,10 +74,7 @@
             <div id="myNav" class="overlay">
               <div class="overlay-content">
                 <a href="./">Home</a>
-                <!-- <a href="about">About</a> -->
                 <a href="gallery">Gallery</a>
-                <!-- <a href="service">Service</a> -->
-                <!-- <a href="blog">Blog</a> -->
               </div>
             </div>
           </div>
@@ -256,7 +264,7 @@
         <div class="col-md-6 col-lg-4 mx-auto">
           <div class="box">
             <div class="img-box">
-              <img src="../images/room1.jpg" alt="">
+              <img src="../images/roomOak.jpg" alt="">
             </div>
             <div class="detail-box">
               <h5>
@@ -266,7 +274,7 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque distinctio aspernatur officiis
                 exercitationem asperiores praesentium
               </p>
-              <a href="room1">
+              <a href="roomOak">
                 PLUS D'INFORMATION
               </a>
             </div>
@@ -275,7 +283,7 @@
         <div class="col-md-6 col-lg-4 mx-auto">
           <div class="box">
             <div class="img-box">
-              <img src="../images/room2.jpg" alt="">
+              <img src="../images/roomArbutus.jpg" alt="">
             </div>
             <div class="detail-box">
               <h5>
@@ -285,7 +293,7 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque distinctio aspernatur officiis
                 exercitationem asperiores praesentium
               </p>
-              <a href="room2">
+              <a href="roomArbutus">
                 PLUS D'INFORMATION
               </a>
             </div>
