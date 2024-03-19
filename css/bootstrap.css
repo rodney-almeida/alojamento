@@ -153,7 +153,7 @@ sup {
 }
 
 a {
-  color: #007bff;
+  /* color: #007bff; */
   text-decoration: none;
   background-color: transparent;
 }
@@ -3256,7 +3256,7 @@ input[type="button"].btn-block {
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  /* background-color: #007bff; */
+  background-color: #007bff;
 }
 
 .dropdown-item.disabled, .dropdown-item:disabled {
