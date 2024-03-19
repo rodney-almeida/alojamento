@@ -317,6 +317,10 @@ a:focus {
   border-color: #ad5d50; 
 }
 
+.custom_nav-lang-box {
+  width: 110px;
+}
+
 /*end header section*/
 
 /* slider section */
