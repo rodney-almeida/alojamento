@@ -153,7 +153,7 @@ sup {
 }
 
 a {
-  /* color: #007bff; */
+  color: #007bff;
   text-decoration: none;
   background-color: transparent;
 }
@@ -3037,6 +3037,11 @@ input[type="button"].btn-block {
 
 .dropdown a {
   color: #fff; /* added */
+}
+
+.dropdown a:hover,
+.dropdown a:focus {
+  background-color: #45523e; 
 }
 
 .dropdown-toggle {
