@@ -31,6 +31,11 @@
   <!-- responsive style -->
   <link href="../css/responsive.css" rel="stylesheet" />
 
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet" type="text/css">
+
+  <!-- form provider Pageclip.co style -->
+  <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
+
 </head>
 
 <body>
@@ -38,19 +43,28 @@
   <!-- header section strats -->
   <header class="header_section innerpage_header">
     <div class="container-fluid">
-      <nav class="navbar navbar-expand-sm custom_nav-container">
-        <a class="navbar-brand company" href="index.html">
+      <nav class="navbar custom_nav-container">
+        <div class="" id="">
+        <a class="navbar-brand company" href="./">
           <span>
             Casa꒎rvora
           </span>
         </a>
-        <div class="language_box">
-          <a href="../en/index.html">EN</a>
-          <a href="../pt/index.html">PT</a>
-          <a href="../fr/index.html">FR</a>
         </div>
-
-        <div class="" id="">
+        <!-- <div class="language_box">
+          <a href="../en/">EN</a>
+          <a href="../pt/">PT</a>
+          <a href="../fr/">FR</a>
+        </div> -->
+        <div class="custom_nav-lang-box" id="">
+          <div class="dropdown ">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-fr"></span></a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> 
+              <a class="dropdown-item" href="../en/"><span class="flag-icon flag-icon-gb"></span> English</a> 
+              <a class="dropdown-item" href="../pt/"><span class="flag-icon flag-icon-pt"></span> Português</a> 
+              <!-- <a class="dropdown-item" href="../fr/"><span class="flag-icon flag-icon-fr"></span> Français</a>  -->
+            </div>
+          </div> 
           <div class="custom_menu-btn">
             <button onclick="openNav()" aria-label="menu-btn">
               <span class="s-1"> </span>
@@ -59,11 +73,10 @@
             </button>
             <div id="myNav" class="overlay">
               <div class="overlay-content">
-                <a href="index.html">Home</a>
-                <!-- <a href="about.html">About</a> -->
-                <a href="gallery.html">Gallery</a>
-                <!-- <a href="service.html">Service</a> -->
-                <!-- <a href="blog.html">Blog</a> -->
+                <a href="./">Home</a>
+                <a href="gallery">Galerie</a>
+                <a href="roomOak">Chambre Chêne</a>
+                <a href="roomArbutus">Chambre Arbousier</a>
               </div>
             </div>
           </div>
@@ -80,24 +93,31 @@
         <div class="carousel-item active">
           <div class="img_container">
             <div class="img-box">
-              <img src="../images/Carousel-cabril.jpg" class="" alt="...">
+              <img src="../images/Carousel01.jpg" class="" alt="...">
             </div>
           </div>
         </div>
         <div class="carousel-item">
           <div class="img_container">
             <div class="img-box">
-              <img src="../images/Carousel-waterfall.jpg" class="" alt="...">
+              <img src="../images/Carousel02.jpg" class="" alt="...">
             </div>
           </div>
         </div>
         <div class="carousel-item">
           <div class="img_container">
             <div class="img-box">
-              <img src="../images/Carousel-casa-linda.jpg" class="" alt="...">
+              <img src="../images/Carousel03.jpg" class="" alt="...">
             </div>
           </div>
         </div>
+        <div class="carousel-item">
+          <div class="img_container">
+            <div class="img-box">
+              <img src="../images/Carousel04.jpg" class="" alt="...">
+            </div>
+          </div>
+        </div>        
       </div>
       <div class="carousel_btn_box">
         <a class="carousel-control-prev" href="#customCarousel" role="button" data-slide="prev">
@@ -157,7 +177,7 @@
             <p>
               Nous aimons camper, faire de la randonnée et piquer une tête dans la rivière et avons toujours imaginé que notre vie se déroulerait près de la nature. Dans ce magnifique petit village, entouré de tout ce que nous aimons, nous avons trouvé notre petit coin de paradis et nous serions ravis de le partager avec tous ceux qui souhaitent passer du temps dans la nature.
             </p>
-            <!-- <a href="about.html">
+            <!-- <a href="about">
               Read More
             </a> -->
           </div>
@@ -181,56 +201,46 @@
         <div class=" col-sm-8 col-md-6 px-0">
           <div class="img-box">
             <img src="../images/gallery/aldeias-xisto-aldeias-xisto-talasnal.png" alt="">
-            <a href="../images/gallery/aldeias-xisto-aldeias-xisto-talasnal.png" data-toggle="lightbox"
-              data-gallery="gallery">
+            <a href="../images/gallery/aldeias-xisto-aldeias-xisto-talasnal.png" data-toggle="lightbox" data-gallery="gallery">
               <i class="fa fa-picture-o" aria-hidden="true"></i>
             </a>
           </div>
         </div>
         <div class="col-sm-4 col-md-3 px-0">
           <div class="img-box">
-            <img src="../images/gallery/casa-linda (5).jpg" alt="">
-            <a href="../images/gallery/casa-linda (5).jpg" data-toggle="lightbox" data-gallery="gallery">
-              <i class="fa fa-picture-o" aria-hidden="true"></i>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 px-0">
-          <div class="img-box">
-            <img src="../images/gallery/casa-linda (5).jpg" alt="">
-            <a href="../images/gallery/casa-linda (5).jpg" data-toggle="lightbox" data-gallery="gallery">
-              <i class="fa fa-picture-o" aria-hidden="true"></i>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 px-0">
-          <div class="img-box">
-            <img src="../images/gallery/lousã-portugal.jpg" alt="">
-            <a href="../images/g4.jpg" data-toggle="lightbox" data-gallery="gallery">
+            <img src="../images/gallery/cabril.jpg" alt="">
+            <a href="../images/gallery/cabril.jpg" data-toggle="lightbox" data-gallery="gallery">
               <i class="fa fa-picture-o" aria-hidden="true"></i>
             </a>
           </div>
         </div>
         <div class="col-sm-4 col-md-3 px-0">
           <div class="img-box">
-            <img src="../images/gallery/casa-linda (4).jpg" alt="">
-            <a href="../images/g5.jpg" data-toggle="lightbox" data-gallery="gallery">
+            <img src="../images/gallery/piodao.jpg" alt="">
+            <a href="../images/gallery/piodao.jpg" data-toggle="lightbox" data-gallery="gallery">
               <i class="fa fa-picture-o" aria-hidden="true"></i>
             </a>
           </div>
         </div>
         <div class="col-sm-8 col-md-6 px-0">
           <div class="img-box">
-            <img src="../images/gallery/Lousã-Castelo.jpg" alt="">
-            <a href="../images/gallery/aldeias-xisto-serra-lousa-bernardo-conde.png" data-toggle="lightbox"
-              data-gallery="gallery">
+            <img src="../images/gallery/lousã03.jpg" alt="">
+            <a href="../images/gallery/lousã03.jpg" data-toggle="lightbox" data-gallery="gallery">
+              <i class="fa fa-picture-o" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 px-0">
+          <div class="img-box">
+            <img src="../images/gallery/aldeias-xisto-serra-lousa-bernardo-conde.png" alt="">
+            <a href="../images/gallery/aldeias-xisto-serra-lousa-bernardo-conde.png" data-toggle="lightbox" data-gallery="gallery">
               <i class="fa fa-picture-o" aria-hidden="true"></i>
             </a>
           </div>
         </div>
       </div>
       <div class="btn-box">
-        <a href="gallery.html">
+        <a href="gallery">
           VOIR TOUT
         </a>
       </div>
@@ -253,17 +263,16 @@
         <div class="col-md-6 col-lg-4 mx-auto">
           <div class="box">
             <div class="img-box">
-              <img src="../images/room1.jpg" alt="">
+              <img src="../images/roomOak.jpg" alt="">
             </div>
             <div class="detail-box">
               <h5>
-                Chambre Studio avec Kitchenette
+                Chambre Chêne
               </h5>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque distinctio aspernatur officiis
-                exercitationem asperiores praesentium
+                Chambre studio avec salle de bain attenante et kitchenette
               </p>
-              <a href="room1.html">
+              <a href="roomOak">
                 PLUS D'INFORMATION
               </a>
             </div>
@@ -272,17 +281,16 @@
         <div class="col-md-6 col-lg-4 mx-auto">
           <div class="box">
             <div class="img-box">
-              <img src="../images/room2.jpg" alt="">
+              <img src="../images/roomArbutus.jpg" alt="">
             </div>
             <div class="detail-box">
               <h5>
-                Chambre Studio
+                Chambre Arbousier
               </h5>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque distinctio aspernatur officiis
-                exercitationem asperiores praesentium
+                Chambre studio avec salle de bain
               </p>
-              <a href="room2.html">
+              <a href="roomArbutus">
                 PLUS D'INFORMATION
               </a>
             </div>
@@ -473,33 +481,33 @@
                 Contactez-nous
               </h2>
             </div>
-            <form action="">
+            <form action="https://send.pageclip.co/2xq10EHMbB4f7MFWrzVw7LXAUW97QmLN/contact-form" class="pageclip-form" method="post">
               <div>
-                <input id="name" type="text" placeholder="Votre nom *" autocomplete="given-name" aria-label="name" required />
+                <input id="name" name="name" type="text" placeholder="Votre nom *" autocomplete="given-name" aria-label="name" required />
               </div>
               <div>
-                <input id="phone" type="text" placeholder="Numéro de téléphone" autocomplete="tel" aria-label="phone"/>
+                <input id="phone" name="phone" type="text" placeholder="Numéro de téléphone" autocomplete="tel" aria-label="phone"/>
               </div>
               <div>
-                <input id="email" type="email" placeholder="Email *" autocomplete="email" aria-label="email" required/>
+                <input id="email" name="email" type="email" placeholder="Email *" autocomplete="email" aria-label="email" required/>
               </div>
               <div>
-                <input id="guests" type="number" placeholder="Nombre d'invités *" aria-label="guests" required />
+                <input id="guests" name="guests" type="number" placeholder="Nombre d'invités *" aria-label="guests" required />
               </div>
               <div>
-                <input id="date" type="date" aria-label="date" required />
+                <input id="date" name="date" type="date" aria-label="date" required />
               </div>
               <div>
-                <input id="nights" type="number" placeholder="Nombre de nuits *" aria-label="nights" required  />
+                <input id="nights" name="nights" type="number" placeholder="Nombre de nuits *" aria-label="nights" required  />
               </div>
               <div>
                 <!-- <input type="text" class="message-box" placeholder="Message"/> -->
-                <textarea id="message" placeholder="Message"></textarea>
+                <textarea id="message" name="message" placeholder="Message"></textarea>
 
               </div>
               <div class="btn_box">
-                <button>
-                  ENVOYER
+                <button type="submit" class="pageclip-form__submit">
+                  <span>ENVOYER</span>
                 </button>
               </div>
             </form>
@@ -533,7 +541,7 @@
         <div class="col-md-6 col-lg-6">
           <div class="info_insta">
             <h4>
-              <a href="index.html" class="navbar-brand m-0 p-0">
+              <a href="./" class="navbar-brand m-0 p-0">
                 <span>
                   Casa꒎rvora
                 </span>
@@ -572,7 +580,7 @@
             <a href="">
               <i class="fa fa-phone" aria-hidden="true"></i>
               <span>
-                Appelez le +01 1234567890
+                Appelez le +351 914 839 636
               </span>
             </a>
             <a href="mailto:casaarvora@gmail.com">
@@ -631,6 +639,9 @@
   <script src="../js/ekko-lightbox.min.js"></script>
   <!-- custom js -->
   <script src="../js/custom.js"></script>
+
+  <!-- form provider Pageclip.co script -->
+  <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 
 </body>
 

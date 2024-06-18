@@ -31,6 +31,8 @@
   <!-- responsive style -->
   <link href="../css/responsive.css" rel="stylesheet" />
 
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet" type="text/css">
+
   <!-- form provider Pageclip.co style -->
   <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
 
@@ -41,19 +43,28 @@
   <!-- header section strats -->
   <header class="header_section innerpage_header">
     <div class="container-fluid">
-      <nav class="navbar navbar-expand-sm custom_nav-container">
-        <a class="navbar-brand company" href="index.html">
+      <nav class="navbar custom_nav-container">
+        <div class="" id="">
+        <a class="navbar-brand company" href="./">
           <span>
             Casa꒎rvora
           </span>
         </a>
-        <div class="language_box">
-          <a href="../en/index.html">EN</a>
-          <a href="../pt/index.html">PT</a>
-          <a href="../fr/index.html">FR</a>
         </div>
-      </div>
-        <div class="" id="">
+        <!-- <div class="language_box">
+          <a href="../en/">EN</a>
+          <a href="../pt/">PT</a>
+          <a href="../fr/">FR</a>
+        </div> -->
+        <div class="custom_nav-lang-box" id="">
+          <div class="dropdown ">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-gb"></span></a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> 
+              <!-- <a class="dropdown-item" href="../en/"><span class="flag-icon flag-icon-gb"></span> English</a>  -->
+              <a class="dropdown-item" href="../pt/"><span class="flag-icon flag-icon-pt"></span> Português</a> 
+              <a class="dropdown-item" href="../fr/"><span class="flag-icon flag-icon-fr"></span> Français</a> 
+            </div>
+          </div> 
           <div class="custom_menu-btn">
             <button onclick="openNav()" aria-label="menu-btn">
               <span class="s-1"> </span>
@@ -62,11 +73,10 @@
             </button>
             <div id="myNav" class="overlay">
               <div class="overlay-content">
-                <a href="index.html">Home</a>
-                <!-- <a href="about.html">About</a> -->
-                <a href="gallery.html">Gallery</a>
-                <!-- <a href="service.html">Service</a> -->
-                <!-- <a href="blog.html">Blog</a> -->
+                <a href="./">Home</a>
+                <a href="gallery">Gallery</a>
+                <a href="roomOak">Oak Room</a>
+                <a href="roomArbutus">Arbutus Room</a>
               </div>
             </div>
           </div>
@@ -83,28 +93,28 @@
         <div class="carousel-item active">
           <div class="img_container">
             <div class="img-box">
-              <img src="../images/Carousel-cabril.jpg" class="" alt="...">
+              <img src="../images/Carousel01.jpg" class="" alt="...">
             </div>
           </div>
         </div>
         <div class="carousel-item">
           <div class="img_container">
             <div class="img-box">
-              <img src="../images/Carousel-waterfall.jpg" class="" alt="...">
+              <img src="../images/Carousel02.jpg" class="" alt="...">
             </div>
           </div>
         </div>
         <div class="carousel-item">
           <div class="img_container">
             <div class="img-box">
-              <img src="../images/Carousel-casa-linda.jpg" class="" alt="...">
+              <img src="../images/Carousel03.jpg" class="" alt="...">
             </div>
           </div>
         </div>
         <div class="carousel-item">
           <div class="img_container">
             <div class="img-box">
-              <img src="../images/Carousel-casa-linda-2.jpg" class="" alt="...">
+              <img src="../images/Carousel04.jpg" class="" alt="...">
             </div>
           </div>
         </div>
@@ -124,8 +134,7 @@
       <div class="col-md-8 col-lg-6 mx-auto">
         <div class="inner_detail-box">
           <h1>
-            Rural Country <br>
-            Accomodation
+            Rural Country Stay
           </h1>
           <p>
             Situated in the heart of Portugal, Casa Arvora offers a unique experience for those who seek to escape the
@@ -175,7 +184,7 @@
               close to nature. In this beautiful little village, surrounded by all the things we love we found our
               little piece of paradise and would love to share it with anyone who wants to spend some time in nature.
             </p>
-            <!-- <a href="about.html">
+            <!-- <a href="about">
               Read More
             </a> -->
           </div>
@@ -199,56 +208,46 @@
         <div class=" col-sm-8 col-md-6 px-0">
           <div class="img-box">
             <img src="../images/gallery/aldeias-xisto-aldeias-xisto-talasnal.png" alt="">
-            <a href="../images/gallery/aldeias-xisto-aldeias-xisto-talasnal.png" data-toggle="lightbox"
-              data-gallery="gallery">
+            <a href="../images/gallery/aldeias-xisto-aldeias-xisto-talasnal.png" data-toggle="lightbox" data-gallery="gallery">
               <i class="fa fa-picture-o" aria-hidden="true"></i>
             </a>
           </div>
         </div>
         <div class="col-sm-4 col-md-3 px-0">
           <div class="img-box">
-            <img src="../images/gallery/casa-linda (5).jpg" alt="">
-            <a href="../images/gallery/casa-linda (5).jpg" data-toggle="lightbox" data-gallery="gallery">
-              <i class="fa fa-picture-o" aria-hidden="true"></i>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 px-0">
-          <div class="img-box">
-            <img src="../images/gallery/casa-linda (5).jpg" alt="">
-            <a href="../images/gallery/casa-linda (5).jpg" data-toggle="lightbox" data-gallery="gallery">
-              <i class="fa fa-picture-o" aria-hidden="true"></i>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 px-0">
-          <div class="img-box">
-            <img src="../images/gallery/lousã-portugal.jpg" alt="">
-            <a href="../images/g4.jpg" data-toggle="lightbox" data-gallery="gallery">
+            <img src="../images/gallery/cabril.jpg" alt="">
+            <a href="../images/gallery/cabril.jpg" data-toggle="lightbox" data-gallery="gallery">
               <i class="fa fa-picture-o" aria-hidden="true"></i>
             </a>
           </div>
         </div>
         <div class="col-sm-4 col-md-3 px-0">
           <div class="img-box">
-            <img src="../images/gallery/casa-linda (4).jpg" alt="">
-            <a href="../images/g5.jpg" data-toggle="lightbox" data-gallery="gallery">
+            <img src="../images/gallery/piodao.jpg" alt="">
+            <a href="../images/gallery/piodao.jpg" data-toggle="lightbox" data-gallery="gallery">
               <i class="fa fa-picture-o" aria-hidden="true"></i>
             </a>
           </div>
         </div>
         <div class="col-sm-8 col-md-6 px-0">
           <div class="img-box">
-            <img src="../images/gallery/Lousã-Castelo.jpg" alt="">
-            <a href="../images/gallery/aldeias-xisto-serra-lousa-bernardo-conde.png" data-toggle="lightbox"
-              data-gallery="gallery">
+            <img src="../images/gallery/lousã03.jpg" alt="">
+            <a href="../images/gallery/lousã03.jpg" data-toggle="lightbox" data-gallery="gallery">
+              <i class="fa fa-picture-o" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 px-0">
+          <div class="img-box">
+            <img src="../images/gallery/aldeias-xisto-serra-lousa-bernardo-conde.png" alt="">
+            <a href="../images/gallery/aldeias-xisto-serra-lousa-bernardo-conde.png" data-toggle="lightbox" data-gallery="gallery">
               <i class="fa fa-picture-o" aria-hidden="true"></i>
             </a>
           </div>
         </div>
       </div>
       <div class="btn-box">
-        <a href="gallery.html">
+        <a href="gallery">
           VIEW ALL
         </a>
       </div>
@@ -271,17 +270,16 @@
         <div class="col-md-6 col-lg-4 mx-auto">
           <div class="box">
             <div class="img-box">
-              <img src="../images/room1.jpg" alt="">
+              <img src="../images/roomOak.jpg" alt="">
             </div>
             <div class="detail-box">
               <h5>
-                Studio Room with Kitchette
+                Oak Room
               </h5>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque distinctio aspernatur officiis
-                exercitationem asperiores praesentium
+                Studio room with bathroom and kitchette
               </p>
-              <a href="room1.html">
+              <a href="roomOak">
                 READ MORE
               </a>
             </div>
@@ -290,17 +288,16 @@
         <div class="col-md-6 col-lg-4 mx-auto">
           <div class="box">
             <div class="img-box">
-              <img src="../images/room2.jpg" alt="">
+              <img src="../images/roomArbutus.jpg" alt="">
             </div>
             <div class="detail-box">
               <h5>
-                Studio Room
+                Arbutus Room
               </h5>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque distinctio aspernatur officiis
-                exercitationem asperiores praesentium
+                Studio room with bathroom
               </p>
-              <a href="room2.html">
+              <a href="roomArbutus">
                 READ MORE
               </a>
             </div>
@@ -551,7 +548,7 @@
         <div class="col-md-6 col-lg-6">
           <div class="info_insta">
             <h4>
-              <a href="index.html" class="navbar-brand m-0 p-0">
+              <a href="./" class="navbar-brand m-0 p-0">
                 <span>
                   Casa꒎rvora
                 </span>
@@ -590,7 +587,7 @@
             <a href="">
               <i class="fa fa-phone" aria-hidden="true"></i>
               <span>
-                Call +01 1234567890
+                Call +351 914 839 636
               </span>
             </a>
             <a href="mailto:casaarvora@gmail.com">

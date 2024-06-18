@@ -28,6 +28,8 @@
   <!-- responsive style -->
   <link href="../css/responsive.css" rel="stylesheet" />
 
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet" type="text/css">
+
 </head>
 
 <body>
@@ -35,32 +37,40 @@
   <!-- header section strats -->
   <header class="header_section innerpage_header">
     <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg custom_nav-container">
-        <a class="navbar-brand" href="index.html">
+      <nav class="navbar custom_nav-container">
+        <div class="" id="">
+        <a class="navbar-brand company" href="./">
           <span>
             Casa꒎rvora
           </span>
         </a>
-        <div class="language_box">
-          <a href="../en/room1.html">EN</a>
-          <a href="../pt/room1.html">PT</a>
-          <a href="../fr/room1.html">FR</a>
-        </div>  
-        <div class="" id="">
-
+        </div>
+        <!-- <div class="language_box">
+          <a href="../en/">EN</a>
+          <a href="../pt/">PT</a>
+          <a href="../fr/">FR</a>
+        </div> -->
+        <div class="custom_nav-lang-box" id="">
+          <div class="dropdown ">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-gb"></span></a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> 
+              <!-- <a class="dropdown-item" href="../en/roomArbutus"><span class="flag-icon flag-icon-gb"></span> English</a>  -->
+              <a class="dropdown-item" href="../pt/roomArbutus"><span class="flag-icon flag-icon-pt"></span> Português</a> 
+              <a class="dropdown-item" href="../fr/roomArbutus"><span class="flag-icon flag-icon-fr"></span> Français</a> 
+            </div>
+          </div> 
           <div class="custom_menu-btn">
-            <button onclick="openNav()">
+            <button onclick="openNav()" aria-label="menu-btn">
               <span class="s-1"> </span>
               <span class="s-2"> </span>
               <span class="s-3"> </span>
             </button>
             <div id="myNav" class="overlay">
               <div class="overlay-content">
-                <a href="index.html">Home</a>
-                <!-- <a href="about.html">About</a> -->
-                <a href="gallery.html">Gallery</a>
-                <!-- <a href="service.html">Service</a> -->
-                <!-- <a href="blog.html">Blog</a> -->
+                <a href="./">Home</a>
+                <a href="gallery">Gallery</a>
+                <a href="roomOak">Oak Room</a>
+                <a href="roomArbutus">Arbutus Room</a>
               </div>
             </div>
           </div>
@@ -78,24 +88,27 @@
       <div class="row">
         <div class="col-md-6">
           <div class="img-box">
-            <img src="../images/room1.jpg" alt="">
+            <img src="../images/roomArbutus.jpg" alt="">
           </div>
         </div>
         <div class="col-md-6">
           <div class="detail-box">
             <div class="heading_container">
               <h2>
-                Studio Room with Kitchette
+                Arbutus Room
               </h2>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolorem eum consequuntur ipsam repellat dolor soluta aliquid laborum, eius odit consectetur vel quasi in quidem, eveniet ab est corporis tempore. <br />
-
-              <i class="fa fa-wifi" aria-hidden="true"></i> Free Wifi <br />
-              <i class="fa fa-bed" aria-hidden="true"></i> Queen Size Bed (extra bed available)<br />
+              Comfortable and spacious room with double bed and private bathroom with shower and kitchenette, where you can prepare simple meals (electric kettle, microwave, minibar, electric hob, basic crockery and cooking set). We offer various amenities to make you feel at home, such as a TV with access to various channels, underfloor heating, tea, coffee, milk and biscuits. You also have at your disposal a garden, with an outdoor table to enjoy the calm of this village and relax. Access to all bed linen and towels, as well as duvet and pillows, is also included. An additional single bed can be added for an additional 10€/night. <br />
+            </p>
+            <p>
+              <i class="fa fa-moon-o" aria-hidden="true"></i> 55€ per night<br />
+              <i class="fa fa-user-o" aria-hidden="true"></i> 2 Guests<br />
+              <i class="fa fa-bed" aria-hidden="true"></i> King Size Bed or 2 x King Single Beds<br />
               <i class="fa fa-shower" aria-hidden="true"></i> Full Bathroom <br />
-              <i class="fa fa-user-o" aria-hidden="true"></i> 2 Guests (addition guest)<br />
-              <i class="fa fa-coffee" aria-hidden="true"></i> Kitchette <br />
+              <!-- <i class="fa fa-coffee" aria-hidden="true"></i> Kitchette <br /> -->
+              <i class="fa fa-wifi" aria-hidden="true"></i> Wifi <br />
+              <i class="fa fa-television" aria-hidden="true"></i> TV <br />
             </p>
             <!-- <a href="">
               Read More
@@ -116,7 +129,7 @@
         <div class="col-md-6 col-lg-6">
           <div class="info_insta">
             <h4>
-              <a href="index.html" class="navbar-brand m-0 p-0">
+              <a href="./" class="navbar-brand m-0 p-0">
                 <span>
                   Casa꒎rvora
                 </span>
@@ -152,7 +165,7 @@
             <a href="">
               <i class="fa fa-phone" aria-hidden="true"></i>
               <span>
-                Call +01 1234567890
+                Call +351 914 839 636
               </span>
             </a>
             <a href="mailto:casaarvora@gmail.com">

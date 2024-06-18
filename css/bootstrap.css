@@ -3035,6 +3035,10 @@ input[type="button"].btn-block {
   position: relative;
 }
 
+.dropdown a {
+  color: #fff; /* added */
+}
+
 .dropdown-toggle {
   white-space: nowrap;
 }
@@ -3057,18 +3061,20 @@ input[type="button"].btn-block {
 .dropdown-menu {
   position: absolute;
   top: 100%;
-  left: 0;
+  /* left: 0; */
+  left: -25px; /* added */
   z-index: 1000;
   display: none;
   float: left;
-  min-width: 10rem;
+  /* min-width: 10rem; */
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
   font-size: 1rem;
   color: #212529;
   text-align: left;
   list-style: none;
-  background-color: #fff;
+  /* background-color: #fff; */
+  background-color: #b0aca2;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem;
@@ -3229,7 +3235,8 @@ input[type="button"].btn-block {
 .dropdown-item {
   display: block;
   width: 100%;
-  padding: 0.25rem 1.5rem;
+  /* padding: 0.25rem 1.5rem; */
+  padding: 0.25rem 0.75rem;
   clear: both;
   font-weight: 400;
   color: #212529;
@@ -3242,7 +3249,8 @@ input[type="button"].btn-block {
 .dropdown-item:hover, .dropdown-item:focus {
   color: #16181b;
   text-decoration: none;
-  background-color: #f8f9fa;
+  /* background-color: #f8f9fa; */
+  background-color: #f9f8f7; 
 }
 
 .dropdown-item.active, .dropdown-item:active {
