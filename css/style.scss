@@ -89,6 +89,13 @@ body {
   align-items: flex-start;
   @include secondary-font();
 
+  h1 {
+    position: relative;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+  }
+
   h2 {
     position: relative;
     font-weight: bold;
