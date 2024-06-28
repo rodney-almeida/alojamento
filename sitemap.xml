@@ -14,61 +14,109 @@
 </url>
 <url>
   <loc>https://casaarvora.pt/en/</loc>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://casaarvora.pt/en/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://casaarvora.pt/en/" />
+  <xhtml:link rel="alternate" hreflang="pt" href="https://casaarvora.pt/pt/" />
+  <xhtml:link rel="alternate" hreflang="fr" href="https://casaarvora.pt/fr/" />
   <lastmod>2024-06-28T16:09:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://casaarvora.pt/pt/</loc>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://casaarvora.pt/en/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://casaarvora.pt/en/" />
+  <xhtml:link rel="alternate" hreflang="pt" href="https://casaarvora.pt/pt/" />
+  <xhtml:link rel="alternate" hreflang="fr" href="https://casaarvora.pt/fr/" />
   <lastmod>2024-06-28T16:09:06+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://casaarvora.pt/fr/</loc>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://casaarvora.pt/en/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://casaarvora.pt/en/" />
+  <xhtml:link rel="alternate" hreflang="pt" href="https://casaarvora.pt/pt/" />
+  <xhtml:link rel="alternate" hreflang="fr" href="https://casaarvora.pt/fr/" />
   <lastmod>2024-06-28T16:09:06+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://casaarvora.pt/en/gallery</loc>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://casaarvora.pt/en/gallery" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://casaarvora.pt/en/gallery" />
+  <xhtml:link rel="alternate" hreflang="pt" href="https://casaarvora.pt/pt/galeria" />
+  <xhtml:link rel="alternate" hreflang="fr" href="https://casaarvora.pt/fr/galerie" />
   <lastmod>2024-06-28T16:09:06+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://casaarvora.pt/en/holiday-room-oak</loc>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://casaarvora.pt/en/holiday-room-oak" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://casaarvora.pt/en/holiday-room-oak" />
+  <xhtml:link rel="alternate" hreflang="pt" href="https://casaarvora.pt/pt/quarto-ferias-sobreiro" />
+  <xhtml:link rel="alternate" hreflang="fr" href="https://casaarvora.pt/fr/chambre-vacances-chene" />
   <lastmod>2024-06-28T16:09:06+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://casaarvora.pt/en/holiday-room-arbutus</loc>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://casaarvora.pt/en/holiday-room-arbutus" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://casaarvora.pt/en/holiday-room-arbutus" />
+  <xhtml:link rel="alternate" hreflang="pt" href="https://casaarvora.pt/pt/quarto-ferias-medronheiro" />
+  <xhtml:link rel="alternate" hreflang="fr" href="https://casaarvora.pt/fr/chambre-vacances-arbousier" />
   <lastmod>2024-06-28T16:09:06+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://casaarvora.pt/pt/galeria</loc>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://casaarvora.pt/en/gallery" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://casaarvora.pt/en/gallery" />
+  <xhtml:link rel="alternate" hreflang="pt" href="https://casaarvora.pt/pt/galeria" />
+  <xhtml:link rel="alternate" hreflang="fr" href="https://casaarvora.pt/fr/galerie" />
   <lastmod>2024-06-28T16:09:06+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://casaarvora.pt/pt/quarto-ferias-sobreiro</loc>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://casaarvora.pt/en/holiday-room-oak" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://casaarvora.pt/en/holiday-room-oak" />
+  <xhtml:link rel="alternate" hreflang="pt" href="https://casaarvora.pt/pt/quarto-ferias-sobreiro" />
+  <xhtml:link rel="alternate" hreflang="fr" href="https://casaarvora.pt/fr/chambre-vacances-chene" />
   <lastmod>2024-06-28T16:09:06+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://casaarvora.pt/pt/quarto-ferias-medronheiro</loc>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://casaarvora.pt/en/holiday-room-arbutus" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://casaarvora.pt/en/holiday-room-arbutus" />
+  <xhtml:link rel="alternate" hreflang="pt" href="https://casaarvora.pt/pt/quarto-ferias-medronheiro" />
+  <xhtml:link rel="alternate" hreflang="fr" href="https://casaarvora.pt/fr/chambre-vacances-arbousier" />
   <lastmod>2024-06-28T16:09:06+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://casaarvora.pt/fr/galerie</loc>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://casaarvora.pt/en/gallery" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://casaarvora.pt/en/gallery" />
+  <xhtml:link rel="alternate" hreflang="pt" href="https://casaarvora.pt/pt/galeria" />
+  <xhtml:link rel="alternate" hreflang="fr" href="https://casaarvora.pt/fr/galerie" />
   <lastmod>2024-06-28T16:09:06+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://casaarvora.pt/fr/chambre-vacances-chene</loc>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://casaarvora.pt/en/holiday-room-oak" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://casaarvora.pt/en/holiday-room-oak" />
+  <xhtml:link rel="alternate" hreflang="pt" href="https://casaarvora.pt/pt/quarto-ferias-sobreiro" />
+  <xhtml:link rel="alternate" hreflang="fr" href="https://casaarvora.pt/fr/chambre-vacances-chene" />
   <lastmod>2024-06-28T16:09:06+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://casaarvora.pt/fr/chambre-vacances-arbousier</loc>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://casaarvora.pt/en/holiday-room-arbutus" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://casaarvora.pt/en/holiday-room-arbutus" />
+  <xhtml:link rel="alternate" hreflang="pt" href="https://casaarvora.pt/pt/quarto-ferias-medronheiro" />
+  <xhtml:link rel="alternate" hreflang="fr" href="https://casaarvora.pt/fr/chambre-vacances-arbousier" />
   <lastmod>2024-06-28T16:09:06+00:00</lastmod>
   <priority>0.51</priority>
 </url>
