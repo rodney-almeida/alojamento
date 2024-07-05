@@ -480,6 +480,34 @@ a:focus {
 
 // end about section
 
+// error section
+
+.error {
+
+  .row {
+    align-items: center;
+  }
+
+  .detail-box {
+    p {
+      margin-top: 10px;
+      margin-bottom: 35px;
+    }
+
+    a {
+      align-items: center;
+      color: $primary1;
+      margin-bottom: 10px;
+
+      &:hover {
+          color: $primary2;
+      }
+    }
+  }
+}
+
+// end error section
+
 // gallery section
 
 .gallery_section {

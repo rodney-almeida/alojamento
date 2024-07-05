@@ -498,6 +498,33 @@ a:focus {
 
 /*end about section*/
 
+/* error section */
+
+.error .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.error .detail-box p {
+  margin-top: 10px;
+  margin-bottom: 35px;
+}
+
+.error .detail-box a {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #45523e;
+  margin-bottom: 10px;
+}
+
+.error .detail-box a:hover {
+  color: #ad5d50; 
+}
+
+/*end error section*/
+
 /* gallery section */
 
 .gallery_section {
