@@ -460,6 +460,11 @@ a:focus {
     align-items: center;
   }
 
+  .row_form {
+    align-items: center;
+    padding-top: 45px;
+  }
+
   .img-box {
     img {
       width: 100%;
@@ -476,6 +481,67 @@ a:focus {
       @include hero_btn($primary2, $white, 10px, 45px, 5px);
     }
   }
+  
+  .form_container {
+    background-color: $primary1;
+    padding: 45px;
+    border: 5px solid $white;
+    color: $white;
+
+    .heading_container {
+      margin-bottom: 30px;
+    }
+
+    input {
+      width: 100%;
+      border: none;
+      margin-bottom: 25px;
+      padding-left: 15px;
+      padding-top: 13px;
+      padding-bottom: 13px;
+      outline: none;
+      color: #101010;
+      box-shadow: 0 0 5px 0 rgba($color: #000000, $alpha: .05);
+      border-radius: 5px;
+
+      &::placeholder {
+        color: #333;
+      }
+    }
+
+    .textarea {
+      height: 120px;
+      width: 100%;
+      border: none;
+      margin-bottom: 25px;
+      padding-left: 15px;
+      padding-top: 13px;
+      padding-bottom: 13px;
+      outline: none;
+      color: #101010;
+      -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.05);
+              box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.05);
+      border-radius: 5px;
+
+      &::placeholder {
+        color: #333;
+      }
+    }
+
+    .btn_box {
+      display: flex;
+      margin-top: 15px;
+      justify-content: center;
+    }
+
+    button {
+      border: none;
+      text-transform: uppercase;
+      @include hero_btn($primary2, $white, 12px, 55px, 5px);
+    }
+
+  }
+
 }
 
 // end about section
@@ -844,6 +910,7 @@ a:focus {
     .btn_box {
       display: flex;
       margin-top: 15px;
+      justify-content: center;
     }
 
     button {

@@ -496,6 +496,110 @@ a:focus {
   color: #ad5d50;
 }
 
+.about_section .row_form {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 45px;
+}
+
+.about_section .form_container {
+  background-color: #45523e;
+  padding: 45px;
+  border: 5px solid #ffffff;
+  color: #ffffff;
+}
+
+.about_section .form_container .heading_container {
+  margin-bottom: 30px;
+}
+
+.about_section .form_container input {
+  width: 100%;
+  border: none;
+  margin-bottom: 25px;
+  padding-left: 15px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  outline: none;
+  color: #101010;
+  -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+}
+
+.about_section .form_container input::-webkit-input-placeholder {
+  color: #333;
+}
+
+.about_section .form_container input:-ms-input-placeholder {
+  color: #333;
+}
+
+.about_section .form_container input::-ms-input-placeholder {
+  color: #333;
+}
+
+.about_section .form_container input::placeholder {
+  color: #333;
+}
+
+.about_section .form_container textarea {
+  height: 120px;
+  width: 100%;
+  border: none;
+  margin-bottom: 25px;
+  padding-left: 15px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  outline: none;
+  color: #101010;
+  -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+}
+
+.about_section .form_container textarea::-webkit-input-placeholder {
+  color: #333;
+}
+
+.about_section .form_container textarea:-ms-input-placeholder {
+  color: #333;
+}
+
+.about_section .form_container textarea::-ms-input-placeholder {
+  color: #333;
+}
+
+.about_section .form_container textarea::placeholder {
+  color: #333;
+}
+
+.about_section .form_container .btn_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 15px;
+  justify-content: center;
+}
+
+.about_section .form_container button {
+  border: none;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 12px 55px;
+  background-color: #ad5d50; 
+  color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #ad5d50;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.about_section .form_container button:hover {
+  background-color: #f5ece5;
+  color: #ad5d50; 
+}
 /*end about section*/
 
 /* error section */
@@ -968,6 +1072,7 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   margin-top: 15px;
+  justify-content: center;
 }
 
 .contact_section .form_container button {

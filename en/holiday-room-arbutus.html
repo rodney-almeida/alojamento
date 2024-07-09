@@ -95,8 +95,47 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <div class="img-box">
-            <img src="/images/roomArbutus.jpg" alt="Casa Arvora Arbutus Room">
+          <div id="customCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="img_container">
+                  <div class="img-box">
+                    <img src="/images/roomArbutus.jpg" class="" alt="Casa Arvora Arbutus Room">
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="img_container">
+                  <div class="img-box">
+                    <img src="/images/roomArbutus.jpg" loading="lazy" class="" alt="Casa Arvora Arbutus Room">
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="img_container">
+                  <div class="img-box">
+                    <img src="/images/roomArbutus.jpg" loading="lazy" class="" alt="Casa Arvora Arbutus Room">
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="img_container">
+                  <div class="img-box">
+                    <img src="/images/roomArbutus.jpg" loading="lazy" class="" alt="Casa Arvora Arbutus Room">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel_btn_box">
+              <a class="carousel-control-prev" href="#customCarousel" role="button" data-slide="prev">
+                <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#customCarousel" role="button" data-slide="next">
+                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
           </div>
         </div>
         <div class="col-md-6">
@@ -112,7 +151,7 @@
             <p>
               <i class="fa fa-moon-o" aria-hidden="true"></i> 55€ per night<br />
               <i class="fa fa-user-o" aria-hidden="true"></i> 2 Guests<br />
-              <i class="fa fa-bed" aria-hidden="true"></i> King Size Bed or 2 x King Single Beds<br />
+              <i class="fa fa-bed" aria-hidden="true"></i> King Size Bed or 2 x Single Beds<br />
               <i class="fa fa-shower" aria-hidden="true"></i> Full Bathroom <br />
               <!-- <i class="fa fa-coffee" aria-hidden="true"></i> Kitchette <br /> -->
               <i class="fa fa-wifi" aria-hidden="true"></i> Wifi <br />
@@ -121,6 +160,30 @@
             <!-- <a href="">
               Read More
             </a> -->
+          </div>
+        </div>
+      </div>
+      <div class="row_form">
+        <div class="col-md-7 col-lg-7 " style="margin:0 auto">
+          <div class="form_container">
+            <div class="heading_container ">
+              <h2>
+                Book Now
+              </h2>
+            </div>
+            <form target="_blank" action="https://portal.freetobook.com/reservations">
+              <input type="hidden" name="w_id" value="48717" />
+              <input type="hidden" name="w_tkn" value="3Od8zm8O36QgrvqwctVYyARGJrqXxzkuXUjdRnHatDhwbYhhuGZuF8yvI4aNO" />
+              <!-- <input type="text" name="check_in_date" value="2019-12-01"> -->
+              <input type="date" name="check_in_date" id="date" aria-label="date" required />
+              <input type="text" name="stay_length" value="Number of nights" />
+              <!-- <input type="submit" value="Check Availability"> -->
+              <div class="btn_box">
+                <button type="submit">
+                  <span>CHECK AVAILABILITY</span>
+                </button>
+              </div>
+            </form>
           </div>
         </div>
       </div>
