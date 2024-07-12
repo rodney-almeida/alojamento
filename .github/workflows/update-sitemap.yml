@@ -18,7 +18,7 @@ jobs:
       - name: Run PowerShell script
         shell: pwsh
         run: |
-          .\github\sitemapUpdate.ps1 -XmlFilePath "sitemap.xml"
+          .\github\scripts\sitemapUpdate.ps1 -XmlFilePath "sitemap.xml"
 
       - name: Commit changes
         run: |
