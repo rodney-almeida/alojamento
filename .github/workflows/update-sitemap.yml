@@ -1,0 +1,29 @@
+name: Update Sitemap
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'sitemap.xml'
+
+jobs:
+  update-sitemap:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Run PowerShell script
+        shell: pwsh
+        run: |
+          .\github\sitemapUpdate.ps1 -XmlFilePath "sitemap.xml"
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Update Sitemap file"
+          git push
