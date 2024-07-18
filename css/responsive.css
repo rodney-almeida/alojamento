@@ -7,6 +7,11 @@
   .slider_section {
     min-height: auto;
   }
+  
+  .about_section .img-box {
+    margin-bottom: 45px;
+
+  }
 
   .info_main_row>div:nth-child(1) {
     margin-bottom: 25px;
@@ -24,11 +29,6 @@
   .slider_section .carousel-control-prev,
   .slider_section .carousel-control-next {
     top: 85.5%;
-  }
-
-  .about_section .img-box {
-    margin-bottom: 45px;
-
   }
 
   .contact_section .row {
