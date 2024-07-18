@@ -503,6 +503,10 @@ a:focus {
   padding-top: 45px;
 }
 
+.about_section .col_form {
+  margin:0 auto;
+}
+
 .about_section .form_container {
   background-color: #45523e;
   padding: 45px;
@@ -994,7 +998,7 @@ a:focus {
           align-items: center;
 }
 
-.contact_section .col-form {
+.contact_section .col_form {
   margin:0 auto;
 }
 
