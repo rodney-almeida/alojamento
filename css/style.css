@@ -473,6 +473,7 @@ a:focus {
 
 .about_section .img-box img {
   width: 100%;
+  padding-bottom: 20px;
 }
 
 .about_section .detail-box p {
