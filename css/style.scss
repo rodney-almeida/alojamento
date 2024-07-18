@@ -664,7 +664,7 @@ a:focus {
 
 // accommodation section
 
-.accomodation_section {
+.accommodation_section {
   .box {
     display: flex;
     flex-direction: column;
@@ -860,6 +860,10 @@ a:focus {
     align-items: center;
   }
 
+  .col-form {
+    margin:0 auto;
+  }
+  
   .form_container {
     background-color: $primary1;
     padding: 45px;
@@ -1025,7 +1029,12 @@ a:focus {
       }
     }
   }
-
+  
+  .map-fo {
+    iframe {
+      border:0;
+    }
+  }
 }
 
 // end info section
